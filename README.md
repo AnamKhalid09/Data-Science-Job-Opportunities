@@ -7,7 +7,7 @@
 
 ## Background
 
-**According to an IBM report, data science jobs will show a growth of 30%. As per the US Bureau of Labor Statistics, about 11 million jobs would be created by the year 2026. The US Bureau of Labor Statistics further predicts a stupendous growth in the data science field between now and 2029, with professionals being paid quite well. According to a websource, Data scientist is ranked #3 in best technology jobs on the global charts!(See References)
+_According to an IBM report, data science jobs will show a growth of 30%. As per the US Bureau of Labor Statistics, about 11 million jobs would be created by the year 2026. The US Bureau of Labor Statistics further predicts a stupendous growth in the data science field between now and 2029, with professionals being paid quite well. According to a websource, Data scientist is ranked #3 in best technology jobs on the global charts!(See References)
 
 Now the question is, Do we have data that supports this narration? If yes, how is the field doing in Australia? Are data scientists being paid well in Australia? What job titles are at the top in terms of salary? How about the distribution of opportunities among different states? Does being in Metro or Regional affects the job opportunities? What skills are the pre-requisites? 
 
@@ -37,7 +37,15 @@ api_keys.py
 
 ## Data-Science
 
-In this folder, you'll create a Python script to visualise the 
+In this folder, you'll create a Python script to visualise some of the facts about data science job opportunities, best companies, popular job locations, employee satisfaction and required skillset.
+
+Follow the steps below to unveil the facts:
+
+1: Import libraries
+2: Read the csv file and display the data in the form of a dataframe.
+3: Analyze the dataframe by looking at the number of rows and columns and roll your sleeves up to start cleanup.
+4: Identify empty and irrelevant data and remove it from the dataframe. Don't forget to verify your cleanup!
+5: 
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -52,7 +60,7 @@ Your final notebook must:
 - Include a print log of each city as it's being processed, with the city number and city name.
 - Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
-- **Note:** If you are having trouble displaying the maps, run `jupyter nbextension enable --py gmaps` in your environment and then retry.
+- **Note:** Keep an eye on datatypes and uniques values in your dataframe.
 
 ## Considerations
 ##References:
