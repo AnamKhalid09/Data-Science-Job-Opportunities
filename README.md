@@ -35,21 +35,15 @@ api_keys.py
 
 9. Push the above changes to GitHub.
 
-## Resources
+## Data-Science
 
-In this section, you'll create a Python script to visualise the weather of 500+ cities of varying distance from the equator. To do so, you'll use a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and your problem-solving skills to create a representative model of weather across cities.
+In this folder, you'll create a Python script to visualise the 
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
 - Temperature (C) vs. Latitude
 
-After each plot, add a sentence or two explaining what the code is analysing.
-
 The second requirement is to compute the linear regression for each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
-
-- Northern Hemisphere - Temperature (C) vs. Latitude
-
-After each pair of plots, explain what the linear regression is modelling. For example, describe any relationships that you notice and any other findings you may have.
 
 Your final notebook must:
 
@@ -60,13 +54,6 @@ Your final notebook must:
 
 - **Note:** If you are having trouble displaying the maps, run `jupyter nbextension enable --py gmaps` in your environment and then retry.
 
-
-As final considerations:
-
-- You must complete your analysis using a Jupyter notebook.
-
 ## Considerations
-
-
-
-**References: https://medium.datadriveninvestor.com/is-data-science-ranked-as-the-sexiest-job-for-2023-and-beyond-cf66d8ba5585
+##References:
+https://medium.datadriveninvestor.com/is-data-science-ranked-as-the-sexiest-job-for-2023-and-beyond-cf66d8ba5585
