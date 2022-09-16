@@ -45,10 +45,10 @@ Follow the steps below to unveil the facts:
 - Read the csv file and display the data in the form of a dataframe.
 - Analyze the dataframe by looking at the number of rows and columns and roll your sleeves up to start cleanup.
 - Identify empty and irrelevant data and remove it from the dataframe. Don't forget to verify your cleanup!
-- The first requirement is to create a series of scatter plots to showcase the following relationships:
+- Keep an on data types and unique values for your better understanding of the data
+- 
 
-- **Note:** Keep an eye on datatypes and uniques values in your dataframe.
-
-## Considerations
-##References:
+- **Note:** The data used is fresh at the time of publication, therefore trends might change in future. For that, it is recommended to use the fresh data for this project. Recommendations and pull requests are welcome!
+ 
+## References:
 https://medium.datadriveninvestor.com/is-data-science-ranked-as-the-sexiest-job-for-2023-and-beyond-cf66d8ba5585
