@@ -25,13 +25,7 @@ Now the question is, Do we have data that supports this narration? If yes, how i
 5. Create another folder called **Resources** and put your csv file in it.
 
 6. Add a .gitignore file as a good practice in case you want to keep any confidential files in it like your API keys. .gitignore file will keep all the files hidden from being published publicly even if your repository is public. For API keys, open your .gitignore file and in the first line type the following:
-- We use groupby method for state and Job Title and then we create how many states have how many data science job opportunities. 
-- Based on that analysis we can conclude that NSW has higher data science job opportunities and we create bar chart based on that analysis.
-- Moreover, We find which company Types have more data science job opportunities. In this we mainly focus on two type private and public type. we merged hospital in public sector. Based on this analysis we can conclude that Company-Public has higher job opportunities and we create pie chart for public vs private job opportunities.
-- Then we use bin method and divide salaries in three different lot such as Lower, Median and Highest salaries.
-- Again we use bin method and divide company size in three different size such as Smaller size, Mediumsize and MNC(Multinational companies). In this analysis we compare size of company with number of employees of each company. 
-- In this analysis we need to remove string from integer in Company Size column so we use string remove method using astye()function.
-- We compared job types and estimate base salary by using groupby method and finally create bar graph for company types vs mean of estimate base salary 
+
 ```python
 # Adding config.py file.
 api_keys.py
@@ -52,7 +46,13 @@ Follow the steps below to unveil the facts:
 - Analyze the dataframe by looking at the number of rows and columns and roll your sleeves up to start cleanup.
 - Identify empty and irrelevant data and remove it from the dataframe. Don't forget to verify your cleanup!
 - Keep an eye on data types and unique values for your better understanding of the data
-- 
+- - We use groupby method for state and Job Title and then we create how many states have how many data science job opportunities. 
+- Based on that analysis we can conclude that NSW has higher data science job opportunities and we create bar chart based on that analysis.
+- Moreover, We find which company Types have more data science job opportunities. In this we mainly focus on two type private and public type. we merged hospital in public sector. Based on this analysis we can conclude that Company-Public has higher job opportunities and we create pie chart for public vs private job opportunities.
+- Then we use bin method and divide salaries in three different lot such as Lower, Median and Highest salaries.
+- Again we use bin method and divide company size in three different size such as Smaller size, Mediumsize and MNC(Multinational companies). In this analysis we compare size of company with number of employees of each company. 
+- In this analysis we need to remove string from integer in Company Size column so we use string remove method using astye()function.
+- We compared job types and estimate base salary by using groupby method and finally create bar graph for company types vs mean of estimate base salary 
 
 - **Note:** The data used is fresh at the time of publication, therefore trends might change in future. For that, it is recommended to use the fresh data for this project. Recommendations and pull requests are welcome!
  
