@@ -59,16 +59,27 @@ Follow the steps below to unveil the facts:
 - Calculate correlation between Company rating and Estimated Base Salary by using linear regression. First identify the correlation by using st.pearsonr then plot it in a scatter plot with a linear regression line. Perform the same steps with Company rating vs Compensation and Benefits.
 - Using Gmaps API to create a heatmap that we can use to visualize which locations have more employment opportunities and highest estimated salary when it comes to data science.
 ·        Create a DataFrame with Max salary, Average Salary and Count of Jobs and call this summary_df.
+
 ·        Set up json response and base url to make a geocode API request.
+
 ·        Identify list of locations, and list for lat/long. Then run a for loop to extract all lat and long coordinates for each location.
+
 ·        Create a DataFrame with job location, lat, and long. Merge this DF with summary_df.
+
 ·        Using the template add job location, max salary and number of job opportunities to the heatmap and store the DataFrame Row.
+
 ·        Populate heat map layer for all job locations and add a marker layer. Finally display the figure.
+
 - Define metro and regional by using conditional statements and find the number of opportunities in metro vs regional.
+
 ·        Add a new column called “location type” to classify location as "regional" and metro and merge them into a DataFrame.
+
 ·        Calculate average salary based on location type, metro locations and regional locations.
+
 ·        Create a bar chart to display Highest Average Estimated Base Salary Per Job Location
+
 ·        Create a bar chart to display Average Estimated Base Salary Per Job type
+
 ·        Create bar charts to display top 10 locations for data science jobs (Overall, Metro and Regional)
 
 
