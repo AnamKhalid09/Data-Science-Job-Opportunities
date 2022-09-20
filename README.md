@@ -46,10 +46,60 @@ Follow the steps below to unveil the facts:
 - Analyze the dataframe by looking at the number of rows and columns and roll your sleeves up to start cleanup.
 - Identify empty and irrelevant data and remove it from the dataframe. Don't forget to verify your cleanup!
 - Keep an eye on data types and unique values for your better understanding of the data
-- 
+
+## Questions covered by Anam Khalid
+- Finding and displaying top 6 companies with maximum number of jobs using value_counts() and iloc() methods.
+- Use groupby(), sort_values() and iloc() method to find and display the companies with the greatest average of low, base and high salary.
+- Find out the maximum number of unique job titles and then display salaries of top 3 job titles using box plot
+- Use groupby() method to find out the top 5 and bottom 5 job titles in terms of salary
+- Calculate the mean of the four columns relevant to the employee satisfaction, find the mean of employee satisfaction and display top ten and bottom ten companies in   terms of employee satisfaction using the iloc method.
+- Using sum(), sort_values() and iloc method, find the top ten in-demand skills by the companies.
+
+## Questions covered by Nishant Patel
+- We use groupby method for state and Job Title and then we create how many states have how many data science job opportunities. 
+- Based on that analysis we can conclude that NSW has higher data science job opportunities and we create bar chart based on that analysis.
+- Moreover, We find which company Types have more data science job opportunities. In this we mainly focus on two type private and public type. we merged hospital in     public sector. Based on this analysis we can conclude that Company-Public has higher job opportunities and we create pie chart for public vs private job
+  opportunities.
+- Then we use bin method and divide salaries in three different lot such as Lower, Median and Highest salaries.
+- Again we use bin method and divide company size in three different size such as Smaller size, Mediumsize and MNC(Multinational companies). In this analysis we 
+  compare size of company with number of employees of each company. 
+- In this analysis we need to remove string from integer in Company Size column so we use string remove method using astye()function.
+- We compared job types and estimate base salary by using groupby method and finally create bar graph for company types vs mean of estimate base salary 
+
+## Questions covered by John Antony
+
+- Find top 10 and bottom 10 companies in terms of company ratings and employee satisfaction by setting conditions over 3.5 and less than 4 respectively. For this we created conditions for each classification and groupby the company with the mean of all employee satisfaction measures.
+- Calculate correlation between Company rating and Estimated Base Salary by using linear regression. First identify the correlation by using st.pearsonr then plot it in a scatter plot with a linear regression line. Perform the same steps with Company rating vs Compensation and Benefits.
+- Using Gmaps API to create a heatmap that we can use to visualize which locations have more employment opportunities and highest estimated salary when it comes to data science.
+          ·        Create a DataFrame with Max salary, Average Salary and Count of Jobs and call this summary_df.
+
+          ·        Set up json response and base url to make a geocode API request.
+
+          ·        Identify list of locations, and list for lat/long. Then run a for loop to extract all lat and long coordinates for each location.
+
+          ·        Create a DataFrame with job location, lat, and long. Merge this DF with summary_df.
+
+          ·        Using the template add job location, max salary and number of job opportunities to the heatmap and store the DataFrame Row.
+
+          ·        Populate heat map layer for all job locations and add a marker layer. Finally display the figure.
+
+- Define metro and regional by using conditional statements and find the number of opportunities in metro vs regional.
+
+          ·        Add a new column called “location type” to classify location as "regional" and metro and merge them into a DataFrame.
+
+          ·        Calculate average salary based on location type, metro locations and regional locations.
+
+          ·        Create a bar chart to display Highest Average Estimated Base Salary Per Job Location
+
+          ·        Create a bar chart to display Average Estimated Base Salary Per Job type
+
+          ·        Create bar charts to display top 10 locations for data science jobs (Overall, Metro and Regional)
+
 
 - **Note:** The data used is fresh at the time of publication, therefore trends might change in future. For that, it is recommended to use the fresh data for this project. Recommendations and pull requests are welcome!
  
 ## References:
 https://medium.datadriveninvestor.com/is-data-science-ranked-as-the-sexiest-job-for-2023-and-beyond-cf66d8ba5585
 
+## Project Proposal URL
+https://docs.google.com/document/d/1-OvAPm_3_UiRPIrVhyElh7s3hZRXC6ZWVS7Ha2c8fzE/edit?usp=sharing
