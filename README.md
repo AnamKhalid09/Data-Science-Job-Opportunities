@@ -52,15 +52,17 @@ Follow the steps below to unveil the facts:
 - Use groupby(), sort_values() and iloc() method to find and display the companies with the greatest average of low, base and high salary.
 - Find out the maximum number of unique job titles and then display salaries of top 3 job titles using box plot
 - Use groupby() method to find out the top 5 and bottom 5 job titles in terms of salary
-- Calculate the mean of the four columns relevant to the employee satisfaction, find the mean of employee satisfaction and display top ten and bottom ten companies in terms of employee satisfaction using the iloc method.
+- Calculate the mean of the four columns relevant to the employee satisfaction, find the mean of employee satisfaction and display top ten and bottom ten companies in   terms of employee satisfaction using the iloc method.
 - Using sum(), sort_values() and iloc method, find the top ten in-demand skills by the companies.
 
 ## Questions covered by Nishant Patel
-- - We use groupby method for state and Job Title and then we create how many states have how many data science job opportunities. 
+- We use groupby method for state and Job Title and then we create how many states have how many data science job opportunities. 
 - Based on that analysis we can conclude that NSW has higher data science job opportunities and we create bar chart based on that analysis.
-- Moreover, We find which company Types have more data science job opportunities. In this we mainly focus on two type private and public type. we merged hospital in public sector. Based on this analysis we can conclude that Company-Public has higher job opportunities and we create pie chart for public vs private job opportunities.
+- Moreover, We find which company Types have more data science job opportunities. In this we mainly focus on two type private and public type. we merged hospital in     public sector. Based on this analysis we can conclude that Company-Public has higher job opportunities and we create pie chart for public vs private job
+  opportunities.
 - Then we use bin method and divide salaries in three different lot such as Lower, Median and Highest salaries.
-- Again we use bin method and divide company size in three different size such as Smaller size, Mediumsize and MNC(Multinational companies). In this analysis we compare size of company with number of employees of each company. 
+- Again we use bin method and divide company size in three different size such as Smaller size, Mediumsize and MNC(Multinational companies). In this analysis we 
+  compare size of company with number of employees of each company. 
 - In this analysis we need to remove string from integer in Company Size column so we use string remove method using astye()function.
 - We compared job types and estimate base salary by using groupby method and finally create bar graph for company types vs mean of estimate base salary 
 
