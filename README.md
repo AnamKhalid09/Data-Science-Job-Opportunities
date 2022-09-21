@@ -46,13 +46,18 @@ Follow the steps below to unveil the facts:
 - Analyze the dataframe by looking at the number of rows and columns and roll your sleeves up to start cleanup.
 - Identify empty and irrelevant data and remove it from the dataframe. Don't forget to verify your cleanup!
 - Keep an eye on data types and unique values for your better understanding of the data
+- Export the dataframe into a csv file and then import it into another .ipynb file to fulfill the rubric requirement.
+- Each Contributor will contribute their part of analysis on this file and will cover the following questions.
 
 ## Questions covered by Anam Khalid
-- Finding and displaying top 6 companies with maximum number of jobs using value_counts() and iloc() methods.
-- Use groupby(), sort_values() and iloc() method to find and display the companies with the greatest average of low, base and high salary.
-- Find out the maximum number of unique job titles and then display salaries of top 3 job titles using box plot
-- Use groupby() method to find out the top 5 and bottom 5 job titles in terms of salary
-- Calculate the mean of the four columns relevant to the employee satisfaction, find the mean of employee satisfaction and display top ten and bottom ten companies in   terms of employee satisfaction using the iloc method.
+- Finding and displaying top 6 companies with maximum number of jobs by using the column 'Company' from the dataframe. Use value_counts() and iloc() methods to achieve
+  your results. Display your results in a bar plot to compare and visualize.
+- Use groupby(), sort_values() and iloc() method to find and display the companies with the greatest average of low, base and high salary. Display your results in a
+  bar plot.
+- Find out the number of jobs for each job title using value_counts() method and then display salaries of top 3 job titles using iloc method and box plot.
+- Use groupby() method to find out the top 5 and bottom 5 job titles in terms of salary. Use iloc and bar plots for extraction and display. Remove any jobs which are
+  not linked with data science. For instance, 'Housekeeper'.
+- Calculate the mean of the four columns relevant to the employee satisfaction, find the mean of employee satisfaction and display top ten and bottom ten companies in   terms of employee satisfaction using the iloc method. Display in bar plots.
 - Using sum(), sort_values() and iloc method, find the top ten in-demand skills by the companies.
 
 ## Questions covered by Nishant Patel
@@ -101,5 +106,3 @@ Follow the steps below to unveil the facts:
 ## References:
 https://medium.datadriveninvestor.com/is-data-science-ranked-as-the-sexiest-job-for-2023-and-beyond-cf66d8ba5585
 
-## Project Proposal URL
-https://docs.google.com/document/d/1-OvAPm_3_UiRPIrVhyElh7s3hZRXC6ZWVS7Ha2c8fzE/edit?usp=sharing
